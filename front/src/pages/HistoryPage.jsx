@@ -93,11 +93,11 @@ function HistoryPage () {
         },
         { 
             label: 'Price',
-            render: (order) => order.price,
+            render: (order) => `$ ${order.price}`,
         },
         { 
             label: 'Tax',
-            render: (order) => order.tax,
+            render: (order) => `$ ${order.tax}`,
         },
     ];
 
